@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>53</x>
+      <y>303</y>
+      <width>291</width>
+      <height>191</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineeditjoin">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>input your name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonjoin">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>100</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>JOIN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineedittext">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>100</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>text to send </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttonsend">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>190</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SEND</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>65</x>
+      <y>41</y>
+      <width>301</width>
+      <height>211</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="grpcrt">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>group name </string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>280</y>
+      <width>191</width>
+      <height>171</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="crtbutton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CREATE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="joinbtn">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>460</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>join group</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>270</y>
+      <width>191</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
